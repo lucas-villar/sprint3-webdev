@@ -47,14 +47,6 @@ export default function Header({
                                 Contato
                             </button>
                         </li>
-                        <li>
-                            <button
-                                onClick={mudarParaTarefas}
-                                className="text-decoration-none text-white btn btn-link"
-                            >
-                                Tarefas
-                            </button>
-                        </li>
                     </ul>
                 </nav>
             </div>

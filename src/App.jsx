@@ -3,9 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
 import Vantagens from "./Vantagens";
-// import Funcionalidades from "./Funcionalidades";
-// import Contato from "./Contato";
-// import Tarefas from "./Tarefas";
+import Funcionalidades from "./Funcionalidades";
+import Contato from "./Contato";
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
   const mudarParaVantagens = () => setComponenteAtual("vantagens");
   const mudarParaFuncionalidades = () => setComponenteAtual("funcionalidades");
   const mudarParaContato = () => setComponenteAtual("contato");
-  const mudarParaTarefas = () => setComponenteAtual("tarefas");
 
   return (
     <div className="app">
@@ -26,7 +24,6 @@ function App() {
         mudarParaVantagens={mudarParaVantagens}
         mudarParaFuncionalidades={mudarParaFuncionalidades}
         mudarParaContato={mudarParaContato}
-        mudarParaTarefas={mudarParaTarefas}
       />
       <main>
         {/* Renderiza o componente com base no estado */}
@@ -34,7 +31,6 @@ function App() {
         {componenteAtual === "vantagens" && <Vantagens />}
         {componenteAtual === "funcionalidades" && <Funcionalidades />}
         {componenteAtual === "contato" && <Contato />}
-        {componenteAtual === "tarefas" && <Tarefas />}
       </main>
         <Footer />
     </div>
