@@ -1,0 +1,18 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f8f9;
+}
+
+footer {
+    background-color: #3c9ecf;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
