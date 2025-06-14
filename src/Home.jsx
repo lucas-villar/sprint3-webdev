@@ -3,6 +3,7 @@ import styles from './Home.module.css'
 import baby from './assets/baby.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import Clima from './Clima'
 
 export default function Home() {
     return (
@@ -39,6 +40,7 @@ export default function Home() {
                         </div>
                     </div>
             </section>
+            <Clima />
         </div>
     );
 }
